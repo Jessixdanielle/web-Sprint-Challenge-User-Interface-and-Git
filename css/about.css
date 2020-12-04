@@ -208,12 +208,26 @@ h2 {
 }
 
 .box-row img {
-	width: 90%;
+	width: 100%;
 }
 
 .strat,
 .how,
 .where,
 .collab {
-	width: 50%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	width: 48%;
+	border-bottom: 2px dashed gray;
+	padding-bottom: 2%;
+}
+
+.learn-more {
+	color: black;
+	border: 2px solid black;
+	margin-top: 4%;
+	padding: 1% 2%;
+	border-radius: 10px;
+	font-weight: 500;
 }
